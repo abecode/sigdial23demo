@@ -1,0 +1,11 @@
+digraph Quiz {
+  welcome -> welcome
+  welcome -> ask_questions
+  ask_questions -> ask_questions
+  ask_questions -> ask_questions
+  ask_questions -> ask_questions
+  ask_questions -> after_test
+  after_test    -> after_test
+  after_test    -> goodbye
+
+}
